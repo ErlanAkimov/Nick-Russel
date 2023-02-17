@@ -1,1 +1,356 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  border-radius: 20px;
+  width: 1512px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 30px rgb(163, 136, 136);
+}
+.main-wrapper .header-text {
+  display: flex;
+  height: 40px;
+  background-color: #000;
+  border-radius: 10px 10px 0 0;
+}
+.main-wrapper .header-text p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  width: 296px;
+  height: 18px;
+  margin: auto;
+  color: white;
+}
+.main-wrapper .main-page {
+  background-color: #FFFCF9;
+}
+.main-wrapper .main-page .nav {
+  padding-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main-wrapper .main-page .nav .nav-contacts {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-wrapper .main-page .nav .nav-contacts img {
+  cursor: pointer;
+}
+.main-wrapper .main-page .nav .nav-title {
+  cursor: pointer;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 60px;
+}
+.main-wrapper .main-page .nav .nav-menu img {
+  cursor: pointer;
+}
+.main-wrapper .main-page .main-content {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main-wrapper .main-page .main-content .side-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  width: 14px;
+  height: 400px;
+  margin-top: 140px;
+}
+.main-wrapper .main-page .main-content .side-text p {
+  color: #797979;
+}
+.main-wrapper .main-page .main-content .side-text b {
+  color: black;
+}
+.main-wrapper .main-page .main-content .main-title {
+  position: absolute;
+  margin-top: 89px;
+  margin-left: 300px;
+}
+.main-wrapper .main-page .main-content .main-title h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 74px;
+}
+.main-wrapper .main-page .main-content .main-title p {
+  color: #797979;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+.main-wrapper .main-page .main-content .main-title .main-btns {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 169px;
+}
+.main-wrapper .main-page .main-content .main-title .main-btns .view-project {
+  cursor: pointer;
+  margin-left: -10px;
+  margin-top: 10px;
+  padding: 0;
+}
+.main-wrapper .main-page .main-content .main-title .main-btns .vector-btn {
+  margin-top: 200px;
+  cursor: pointer;
+}
+.main-wrapper .main-page .arrivals {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-wrapper .main-page .arrivals .arrivals-description {
+  margin-top: 100px;
+  padding-right: 78px;
+}
+.main-wrapper .main-page .arrivals .arrivals-description .arrivals-title h1 {
+  padding-top: 100px;
+  font-family: "Nanum Myeongjo", serif;
+  width: 402px;
+  font-size: 60px;
+  font-weight: 900;
+}
+.main-wrapper .main-page .arrivals .arrivals-description .description {
+  margin-top: 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #797979;
+}
+.main-wrapper .main-page .arrivals .arrivals-description .btn-viewAll {
+  margin-top: 40px;
+}
+.main-wrapper .main-page .arrivals .arrivals-description .btn-viewAll button {
+  background: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.main-wrapper .main-page .arrivals .arrivals-description .btn-viewAll .underline {
+  width: 71px;
+  height: 3px;
+  background-color: rgb(248, 41, 41);
+}
+.main-wrapper .main-page .arrivals .carousel-gallery {
+  margin-top: 142px;
+  display: flex;
+  overflow-x: hidden;
+  width: 3000px;
+}
+.main-wrapper .main-page .arrivals .carousel-gallery .rectangle {
+  margin: 0 20px;
+}
+.main-wrapper .main-page .arrivals .carousel-gallery .rectangle-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.main-wrapper .main-page .arrivals .carousel-gallery .rectangle-description .rec-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.main-wrapper .main-page .arrivals .carousel-gallery .rectangle-description .rec-cost {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.main-wrapper .main-page .arrivals .carousel-gallery .last-rec {
+  margin-right: 0;
+  padding-right: 100px;
+}
+.main-wrapper .main-page .gallery {
+  padding: 150px 100px 0;
+}
+.main-wrapper .main-page .gallery .gallery-desc {
+  display: flex;
+  align-items: center;
+  padding-bottom: 88px;
+}
+.main-wrapper .main-page .gallery .gallery-desc .title {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 60px;
+  font-weight: 900;
+  width: 707px;
+}
+.main-wrapper .main-page .gallery .gallery-desc .description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 1000px;
+  color: #797979;
+}
+.main-wrapper .main-page .gallery .images {
+  padding-bottom: 163px;
+}
+.main-wrapper .main-page .gallery .images .st {
+  width: 437px;
+  height: 600px;
+  margin-right: 38px;
+}
+.main-wrapper .main-page .gallery .images .nd {
+  width: 833px;
+  height: 600px;
+}
+.main-wrapper .main-page .gallery .images .rd {
+  width: 833px;
+  height: 600px;
+}
+.main-wrapper .main-page .gallery .images .th {
+  width: 437px;
+  height: 600px;
+  margin-top: 38px;
+  margin-left: 38px;
+}
+.main-wrapper .main-page .slider-wrapper {
+  position: relative;
+  background-color: black;
+  height: 934px;
+}
+.main-wrapper .main-page .slider-wrapper .slogan {
+  width: 222px;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  position: absolute;
+  top: 72px;
+  right: 211px;
+  color: #797979;
+}
+.main-wrapper .main-page .slider-wrapper .slogan b {
+  color: white;
+}
+.main-wrapper .main-page .slider-wrapper .title {
+  position: absolute;
+  top: 675px;
+  left: 100px;
+}
+.main-wrapper .main-page .slider-wrapper .title .project {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #797979;
+}
+.main-wrapper .main-page .slider-wrapper .title .project-name {
+  font-size: 74px;
+  font-weight: 700;
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+}
+.main-wrapper .main-page .slider-wrapper .slider {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+}
+.main-wrapper .main-page .slider-wrapper .slider .prev-btn {
+  cursor: pointer;
+}
+.main-wrapper .main-page .slider-wrapper .slider .next-btn {
+  cursor: pointer;
+}
+.main-wrapper .main-page .footer {
+  padding: 160px 100px 0;
+}
+.main-wrapper .main-page .footer .content .title {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-wrapper .main-page .footer .content .title .hashtag {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.main-wrapper .main-page .footer .content .title .follow-inst {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-wrapper .main-page .footer .content .title .follow-inst img {
+  cursor: pointer;
+}
+.main-wrapper .main-page .footer .content .photos img {
+  margin: 8px;
+}
+.main-wrapper .main-page .footer .footer-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side {
+  padding-top: 100px;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side .contacts {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 60px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side .contacts .footer-contacts {
+  margin-left: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side .contacts .footer-contacts img {
+  cursor: pointer;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side .rights {
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+}
+.main-wrapper .main-page .footer .footer-footer .left-side .rights b {
+  font-size: 23px;
+}
+.main-wrapper .main-page .footer .footer-footer .right-side {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.main-wrapper .main-page .footer .footer-footer .right-side p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  width: 220px;
+}
+.main-wrapper .main-page .footer .footer-footer .right-side img {
+  cursor: pointer;
+}
+.main-wrapper .ender-text {
+  display: flex;
+  height: 40px;
+  background-color: #000;
+  border-radius: 0 0 10px 10px;
+}
+.main-wrapper .ender-text p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  width: 296px;
+  height: 18px;
+  margin: auto;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
